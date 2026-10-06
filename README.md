@@ -1,107 +1,149 @@
 <div align="center">
-  <img src="assets/logo.jpg" alt="Summit Ridge Landscaping Logo" width="120" />
+  <br />
+  <a href="https://saidur289.github.io/landscaping-website/">
+    <img src="assets/logo.jpg" alt="Summit Ridge Landscaping" width="140" style="border-radius: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+  </a>
+  <br />
+  <br />
 
-  # Summit Ridge Landscaping
+  <h1 align="center">Summit Ridge Landscaping</h1>
 
-  **A Premium, High-Conversion Landing Page for Landscaping Services**
+  <p align="center">
+    <strong>A Premium, High-Conversion Landing Page for Elite Landscaping Services.</strong>
+    <br />
+    <br />
+    <a href="https://saidur289.github.io/landscaping-website/"><strong>Explore Live Demo »</strong></a>
+    <br />
+    <br />
+  </p>
 
-  ### 🌐 [View Live Demo](https://saidur289.github.io/landscaping-website/)
-
-  [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
-  [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
-  [![Vanilla JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](#)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](#)
+  <p align="center">
+    <img src="https://img.shields.io/badge/HTML5-1B4332?style=for-the-badge&logo=html5&logoColor=D4A84B" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1B4332?style=for-the-badge&logo=css3&logoColor=D4A84B" alt="CSS3" />
+    <img src="https://img.shields.io/badge/Vanilla_JS-1B4332?style=for-the-badge&logo=javascript&logoColor=D4A84B" alt="JS" />
+    <img src="https://img.shields.io/badge/License-MIT-1B4332?style=for-the-badge" alt="License" />
+  </p>
 </div>
+
+<br />
+
+<!-- Banner Image -->
+<div align="center">
+  <a href="https://saidur289.github.io/landscaping-website/">
+    <img src="assets/hero.jpg" alt="Hero Preview" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+  </a>
+</div>
+
+<br />
+
+> **Note:** The live site features a dynamic, scroll-scrubbed background video that plays frame-by-frame as you navigate the page. Experience it directly on the [Live Demo](https://saidur289.github.io/landscaping-website/).
 
 ---
 
-## 📖 Overview
+## 🎨 Design System
 
-The **Summit Ridge Landscaping** landing page is a masterclass in modern web aesthetics designed specifically for the landscaping and outdoor architecture industry. Built natively without heavy frameworks, it focuses on delivering a highly performant, visually stunning, and highly engaging user experience. 
+We believe digital spaces should feel as intentional and curated as physical landscapes. The design system leverages high-contrast display typography and an organic, earthy color palette.
 
-From its interactive video-scrubbing hero section to its polished glassmorphism UI components, every pixel is engineered to build trust and drive client conversions.
+### 🎨 Color Palette
 
-<img src="assets/hero.jpg" alt="Hero Section Preview" width="100%" style="border-radius: 8px;" />
+| Name | Hex | Preview | Usage |
+| :--- | :--- | :---: | :--- |
+| **Deep Forest** | `#1B4332` | <img src="https://via.placeholder.com/20/1B4332/000000?text=+" width="20" /> | Primary backgrounds, hero overlays, buttons |
+| **Warm Gold** | `#D4A84B` | <img src="https://via.placeholder.com/20/D4A84B/000000?text=+" width="20" /> | Accents, statistics, primary call-to-actions |
+| **Soft Cream** | `#FAF7F0` | <img src="https://via.placeholder.com/20/FAF7F0/000000?text=+" width="20" /> | Base background, large text sections |
+| **Dark Bark** | `#3D2C1E` | <img src="https://via.placeholder.com/20/3D2C1E/000000?text=+" width="20" /> | Primary typography on light backgrounds |
 
-## ✨ Key Features
+### ✒️ Typography
 
-- **🎬 Scroll-Scrubbed Video Hero**: Creates a dynamic, premium feel where the background video plays frame-by-frame smoothly tied to the user's scroll position.
-- **📱 Fully Responsive Design**: Flawlessly adapts to any screen size—mobile, tablet, or 4K desktop displays.
-- **🧊 Glassmorphism UI Elements**: Employs frosted glass effects (`backdrop-filter`) on statistics and navigation components for a modern, layered depth.
-- **⚡ Performant Scroll Animations**: Uses the lightweight `IntersectionObserver` API to orchestrate buttery-smooth reveal animations as the user scrolls down the page.
-- **🎨 Premium Typography & Color System**: Thoughtfully crafted design system using *Abril Fatface* for bold, high-contrast headings and a rich palette of Deep Forest Greens, Warm Golds, and Creams.
-- **🖼️ Masonry CSS Grid Layout**: An elegant, responsive masonry gallery showcasing project portfolios without the need for bloated JS libraries.
+- **Display & Headings:** `Abril Fatface` (reminiscent of heavy, high-contrast serif foundry types).
+- **Body Content:** `Source Sans 3` (clean, highly legible sans-serif).
 
-## 🛠️ Built With
+---
 
-This project avoids heavy dependencies in favor of pure, performant native web technologies:
+## ✨ Signature Features
 
-- **HTML5**: Semantic, accessible structure.
-- **Vanilla CSS3**: Custom CSS variables (Custom Properties), Flexbox, CSS Grid, and modern viewport units (`dvh`).
-- **Vanilla JavaScript (ES6)**: Lightweight DOM manipulation, intersection observers, and scroll event listeners.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🎬 Interactive Video Hero</h3>
+      <p>A cinematic entry point where the background video's playback is tied directly to the user's scroll position, creating an immediate sense of immersion.</p>
+    </td>
+    <td width="50%">
+      <h3>🧊 Glassmorphism UI</h3>
+      <p>Key data points and navigation elements utilize <code>backdrop-filter</code> blurring techniques to float elegantly above the content layers without obscuring them.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>⚡ Buttery Scroll Reveals</h3>
+      <p>Using the native <code>IntersectionObserver</code> API, elements naturally fade and glide into view, maintaining 60fps performance without relying on heavy animation libraries.</p>
+    </td>
+    <td width="50%">
+      <h3>🖼️ CSS Masonry Gallery</h3>
+      <p>A beautifully orchestrated portfolio gallery built strictly with CSS Grid and Flexbox techniques, adapting flawlessly to mobile, tablet, and ultra-wide screens.</p>
+    </td>
+  </tr>
+</table>
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
+## 🛠️ Built Without Bloat
 
-You don't need any complex build tools like Webpack or Node.js to run this project. A simple local static server is all you need.
+This project is a testament to the power of the modern web platform. It avoids large JavaScript frameworks and CSS pre-processors, proving that premium experiences can be built natively.
 
-- Node.js (Optional, if using `npx serve`)
-- Python (Optional, if using `http.server`)
-- VS Code Live Server Extension (Optional)
+*   **Markup**: Semantic HTML5.
+*   **Styling**: Pure CSS3 with Custom Properties (Variables), advanced Grid/Flexbox layouts, and modern viewport units (`dvh`).
+*   **Logic**: Vanilla ES6 JavaScript.
 
-### Installation & Running Locally
+---
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Saidur289/landscaping-website.git
-   cd landscaping-website
-   ```
+## 🚀 Quick Start (Local Development)
 
-2. **Serve the project locally**
+Because the project is entirely static, spinning it up locally takes seconds.
 
-   *Using Node.js (npx):*
-   ```bash
-   npx serve .
-   ```
-   *Using Python 3:*
-   ```bash
-   python -m http.server 8000
-   ```
-
-3. **View in browser**
-   Open `http://localhost:3000` (or the port specified by your server) to view the live site.
-
-## 📂 Project Structure
-
-```text
-landscaping-website/
-├── assets/
-│   ├── gemini_generated_video_3f82a46f.mp4   # Hero scrubbing video
-│   ├── hero.jpg                              # Fallback hero image
-│   ├── logo.jpg                              # Brand logo
-│   └── service-*.jpg                         # Various project/service photography
-├── index.html                                # Main markup and embedded JS logic
-├── index.css                                 # Global styles, variables, and animations
-└── README.md                                 # Project documentation
+### 1. Clone the repository
+```bash
+git clone https://github.com/Saidur289/landscaping-website.git
+cd landscaping-website
 ```
+
+### 2. Serve it locally
+You can use any local static server. Here are two quick methods:
+
+**Using Node.js:**
+```bash
+npx serve .
+```
+
+**Using Python:**
+```bash
+python -m http.server 8000
+```
+
+### 3. Experience it
+Open `http://localhost:3000` (or `8000`) in your favorite browser.
+
+---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! 
-Feel free to check [issues page](https://github.com/Saidur289/landscaping-website/issues).
+We welcome aesthetic tweaks, code optimizations, and feature expansions! 
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. **Fork** the repository.
+2. **Create a branch** for your feature: `git checkout -b feature/organic-animations`
+3. **Commit** your changes: `git commit -m 'feat: added organic button hover states'`
+4. **Push** to the branch: `git push origin feature/organic-animations`
+5. **Open a Pull Request**.
+
+---
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
 
----
+<br />
+
 <div align="center">
-  <i>Designed and engineered with care for Summit Ridge Landscaping.</i>
+  <img src="assets/logo.jpg" alt="Footer Logo" width="40" style="border-radius: 50%;" />
+  <p><i>Crafted with care for Summit Ridge Landscaping</i></p>
 </div>
